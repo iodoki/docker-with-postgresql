@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  pgdb:
+    image: postgres
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: bookdb         
+    ports:
+      - 5432:5432
+  admin:
+    image: adminer
+    ports:
+      - 8090:8080
