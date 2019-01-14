@@ -20,8 +20,8 @@ services:
 # Build and run your app with Compose
 
 * `git clone https://github.com/mdoklea/docker-with-postgresql.git`
-* From your project directory, start up your application by running `docker-compose up` 
-* Enter `http://localhost:8090 ` in a browser to see the application running
+* From your project directory, start up your application by running `docker-compose up` .
+* Enter `http://localhost:8090 ` in a browser to see the application running.
 * Voilà the admin page:
 
   ![DB Admin Page](/images/db-admin.png)
